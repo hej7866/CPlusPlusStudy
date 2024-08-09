@@ -1,2 +1,6 @@
-﻿  lectures.cpp
+﻿  lecture2.cpp
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture2.cpp(125,6): warning C4101: 'number_of_people' :참조되지 않은 지역 변수입니다.
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture2.cpp(122,6): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture2.cpp(126,6): warning C4101: 'NumberOfPeople' :참조되지 않은 지역 변수입니다.
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture2.cpp(67,1): warning C4172: 지역 변수 또는 임시: a의 주소를 반환하고 있습니다.
   CplusplusProject.vcxproj -> C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\x64\Debug\CplusplusProject.exe
