@@ -4,7 +4,8 @@ int main()
 {
     //lecture1();
     //lecture2();
-    lecture3();
+    //lecture3();
+    lecture4();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
