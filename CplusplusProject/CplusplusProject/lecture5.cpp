@@ -286,4 +286,7 @@ void lecture5()
 	// 사각형 클래스 호출
 	Rectangle rect1;
 	rect1.ShowRectInfo();
+
+	Circle cir1;
+	cir1.ShowCircleInfo();
 }
