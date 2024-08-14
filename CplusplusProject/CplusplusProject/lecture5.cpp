@@ -84,6 +84,7 @@ void Date::ShowDate()
 	std::cout << "오늘은 " << year << "년 " << month << "월 " << day << "일입니다." << std::endl;
 }
 
+// ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ //
 class SinivelCap
 {
 public:
@@ -123,6 +124,8 @@ public:
 		capsule.Take();
 	}
 };
+
+// ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ //
 
 // Point (int x, int y) 좌표를 출력하는 객체를 생성해보세요.
 class Point
@@ -207,6 +210,7 @@ void Rectangle::ShowRectInfo()
 	std::cout << "사각형의 넓이 : " << areaSize << std::endl;;
 }
 
+// ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ //
 
 // Circle 클래스를 작성해보자
 // 반지름 radius, const float PI = 3.14f, 원점 좌표를 Point
@@ -217,6 +221,8 @@ class Circle
 private:
 	int radius;
 	const float PI = 3.14f;
+	float ca;
+	float cl;
 	Point Center;
 public:
 	Circle();
@@ -225,7 +231,15 @@ public:
 	void ShowCircleInfo();
 };
 
-Circle::Circle() :Center() {};
+Circle::Circle(): Center()
+{
+	std::cout << "반지름을 입력하세요 : ";
+	std::cin >> radius;
+	ca = CircleArea();
+	cl = Circlelength();
+};
+
+
 
 float Circle::Circlelength()
 {
@@ -240,10 +254,11 @@ float Circle::CircleArea()
 void Circle::ShowCircleInfo()
 {
 	Center.ShowPoint();
-	std::cout << "호의 길이 : " << Circlelength() << std::endl;;
-	std::cout << "원의 넓이 : " << CircleArea() << std::endl;;
+	std::cout << "호의 길이 : " << cl << std::endl;;
+	std::cout << "원의 넓이 : " << ca << std::endl;;
 }
 
+// ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ //
 
 void lecture5()
 {
