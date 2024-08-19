@@ -133,6 +133,7 @@
     <ClCompile Include="lecture4.cpp" />
     <ClCompile Include="lecture5.cpp" />
     <ClCompile Include="lecture6.cpp" />
+    <ClCompile Include="lecture7.cpp" />
     <ClCompile Include="lectures.cpp" />
   </ItemGroup>
   <ItemGroup>
