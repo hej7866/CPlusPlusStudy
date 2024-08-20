@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "CplusplusProject\\lecture7.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\CplusplusProject\\lecture7.cpp",
               "RelativeToolTip": "CplusplusProject\\lecture7.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAAANoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-19T07:37:39.207Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "CplusplusProject\\lecture6.cpp",
               "ViewState": "AQIAAPcAAAAAAAAAAAAAAPoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-16T07:01:22.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-16T07:01:22.715Z"
             },
             {
               "$type": "Document",
@@ -136,8 +135,7 @@
               "RelativeToolTip": "CplusplusProject\\lectures.cpp",
               "ViewState": "AQIAAE4AAAAAAAAAAAAiwG8AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-08T08:37:41.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T08:37:41.281Z"
             },
             {
               "$type": "Document",
@@ -149,8 +147,7 @@
               "RelativeToolTip": "CplusplusProject\\CplusplusProject.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-08T08:35:00.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T08:35:00.086Z"
             },
             {
               "$type": "Document",
@@ -162,8 +159,7 @@
               "RelativeToolTip": "CplusplusProject\\lectures.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-08T08:36:52.316Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-08T08:36:52.316Z"
             }
           ]
         }

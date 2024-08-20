@@ -192,6 +192,7 @@ void lecture7()
     Point minus = p1 - p2;
     // p1 - p2 => p1.operator-(p2);
 
+
     p1.ShowPosition();       // (1,1)
     p2.ShowPosition();       // (2,3)
     result.ShowPosition(); // (3,4)
@@ -212,6 +213,9 @@ void lecture7()
     Point p4(4, 4);
     p4++;
     p4.ShowPosition();
+
+    Point p5 = operator+(5, p1);
+    p5.ShowPosition();
 
     // system("cls");
     std::cout << "예제 문제 풀이 " << std::endl;
