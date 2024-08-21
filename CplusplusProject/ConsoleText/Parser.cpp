@@ -35,13 +35,13 @@ ConsoleTextCommand ParseCommand()
             command.commandType = CommandTypeW;
         }
         else if (parseData == "a" || parseData == "west" || parseData == "left") {
-            command.commandType = CommandTypeW;
+            command.commandType = CommandTypeA;
         }
         else if (parseData == "s" || parseData == "south" || parseData == "down") {
-            command.commandType = CommandTypeW;
+            command.commandType = CommandTypeS;
         }
         else if (parseData == "d" || parseData == "east" || parseData == "right") {
-            command.commandType = CommandTypeW;
+            command.commandType = CommandTypeD;
         }
     }
     return command;

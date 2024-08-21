@@ -32,11 +32,12 @@ int main()
 
 	while (true)
 	{
-		ParseCommand();
+		RenderGame(player, world);  // Rendering : 이미지(맵)를 그려주는 것
+		GetInput(player, world);   // 플레이어의 입력 : if(Async wasd) -> if() -> if()
+		//ParseCommand();
+		UpdateGame(player, world); // Update    : 특정 위치에 도착하면 다음 맵으로 이동한다. 플레이어의 위치, 특정 장소의 위치 같은지 아닌지
 
-		// 플레이어의 입력 : if(Async wasd) -> if() -> if()
-		// Rendering : 이미지(맵)를 그려주는 것
-		// Update    : 특정 위치에 도착하면 다음 맵으로 이동한다. 플레이어의 위치, 특정 장소의 위치 같은지 아닌지
+		
 		
 		// Quit : 게임 종료 기능 함수, Bool Quit = true => break Exit(0);
 	}
