@@ -226,3 +226,5 @@ void lecture7()
     std::cout << "학생1의 수학 + 영어 총합 : " << Add(m1, e1) << std::endl;
     std::cout << "학생2의 수학 + 영어 총합 : " << Add(m1, e1) << std::endl;
 }
+
+

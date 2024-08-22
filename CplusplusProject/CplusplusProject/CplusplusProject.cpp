@@ -9,7 +9,8 @@ int main()
     //lecture5();
     //lecture6();
     //lecture6_2();
-    lecture7();
+    //lecture7();
+    lecture8();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
