@@ -52,52 +52,52 @@
 *  Gun(총)
 */
 
-//class Book
-//{
-//private:
-//	char* title;
-//	int price;
-//public:
-//	Book(char* title, int price)
-//	{
-//		this->price = price;   //: price(price) 처리가 같다.
-//		this->title = new char[strlen(title) + 1];
-//		strcpy_s(this->title, strlen(title) + 1, title);
-//	}
-//	~Book()
-//	{
-//		delete[] title;
-//	}
-//
-//	void ShowBookInfo()	
-//	{
-//		std::cout << "제목 : " << title << std::endl;
-//		std::cout << "가격 : " << price << std::endl;
-//	}
-//};
-//
-//class EBook : public Book
-//{
-//private:
-//	char* DRMkey;
-//public:
-//	EBook(char* title, int price, const char* key) : Book(title, price)
-//	{
-//		DRMkey = new char[strlen(key) + 1];
-//		strcpy_s(DRMkey, strlen(key) + 1, key);
-//	}
-//
-//	void ShowEBookInfo() 
-//	{
-//		ShowBookInfo();
-//		std::cout << "DRMKey의 값" << "wasdfwefiajed" << std::endl;
-//	}
-//
-//	~EBook()
-//	{
-//		delete[] DRMkey;
-//	}
-//};
+class Book
+{
+private:
+	char* title;
+	int price;
+public:
+	Book(const char* title, int price)
+	{
+		this->price = price;   //: price(price) 처리가 같다.
+		this->title = new char[strlen(title) + 1];
+		strcpy_s(this->title, strlen(title) + 1, title);
+	}
+	~Book()
+	{
+		delete[] title;
+	}
+
+	void ShowBookInfo()	
+	{
+		std::cout << "제목 : " << title << std::endl;
+		std::cout << "가격 : " << price << std::endl;
+	}
+};
+
+class EBook : public Book
+{
+private:
+	char* DRMkey;
+public:
+	EBook(const char* title, int price, const char* key) : Book(title, price)
+	{
+		DRMkey = new char[strlen(key) + 1];
+		strcpy_s(DRMkey, strlen(key) + 1, key);
+	}
+
+	void ShowEBookInfo() 
+	{
+		ShowBookInfo();
+		std::cout << "DRMKey의 값" << "wasdfwefiajed" << std::endl;
+	}
+
+	~EBook()
+	{
+		delete[] DRMkey;
+	}
+};
 
 class Gun
 {
