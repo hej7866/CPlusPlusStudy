@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="CplusplusProject.cpp" />
     <ClCompile Include="lecture10.cpp" />
+    <ClCompile Include="lecture11.cpp" />
     <ClCompile Include="lecture2.cpp" />
     <ClCompile Include="lecture3.cpp" />
     <ClCompile Include="lecture4.cpp" />
