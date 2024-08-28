@@ -58,7 +58,6 @@ void Player::ShowStatus()
 
 	// 반복문을 이용해서 아이템의 최대 수. Item 배열[i] -> 아이템 이름, 아이템 번호, 기능 .....
 	cout << "현재 아이템 : " << "아직 미구현" << endl;
-
 }
 
 void Slime::MonsterAttack(Player* player)
@@ -75,7 +74,7 @@ void Slime::MonsterBeAttacked(Player* player)
 	if (IsDead()) {
 		monsterHp = 0;
 		cout << "슬라임을 처치했습니다." << endl;
-		exit(0);
+		// exit(0);
 		// 아이템 보상
 		DropReward(player);
 	}
@@ -86,6 +85,7 @@ void Slime::DropReward(Player* player)
 	cout << "몬스터 처치 보상" << endl;
 	(*monsterReward).RewardExp();
 	(*monsterReward).RewardMoney();
+	(*monsterReward).RewardItem((*player).GetInventory());
 }
 
 bool Slime::IsDead()
