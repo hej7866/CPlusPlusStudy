@@ -20,6 +20,40 @@ int main(void)
 {
 	cout << "RPG BATTLE SYSTEM" << endl;
 
+	Player player(100, 10);
+	// player.Attack();
+	player.BeAttacked(10);
+
+	Item sword("소드", 10);
+	Reward slimeReward(50, 1000, sword);
+	
+	Slime slime(50, 5, &slimeReward);
+
+	int userInput = 0;
+	int turn = 1;
+	while (true)
+	{
+		cout << "현재 진행 중인 턴 수 : " << turn << endl;
+		cout << "1번. 공격" << endl;
+		cout << "2번. ??" << endl;
+
+		cin >> userInput;
+		if (userInput == 1)
+		{
+			player.Attack(&slime);
+		}
+
+		cout << "슬라임의 Turn" << endl;
+		slime.MonsterAttack(&player);
+
+		if (player.IsDead() || slime.IsDead())
+		{
+			break;
+		}
+
+		turn++;
+	}
+
 	// 1. 게임 시작 화면
 
 	// 2. 메인 게임 플레이
