@@ -22,7 +22,6 @@ int main(void)
 
 	Player player(100, 10);
 	// player.Attack();
-	player.BeAttacked(10);
 
 	Item sword("소드", 10);
 	Reward slimeReward(50, 1000, sword);

@@ -1,3 +1,43 @@
-﻿  lecture11.cpp
+﻿  CplusplusProject.cpp
+  lecture10.cpp
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture10.cpp(131,16): warning C4312: '형식 캐스트': 'int'에서 더 큰 'char *'(으)로의 변환입니다.
+  lecture11.cpp
 C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture11.cpp(125,13): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lecture12.cpp
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,68): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,68): warning C4305:         with
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,68): warning C4305:         [
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,68): warning C4305:             T=float
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,68): warning C4305:         ]
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,63): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,63): warning C4305:         with
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,63): warning C4305:         [
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,63): warning C4305:             T=float
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(146,63): warning C4305:         ]
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,74): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,74): warning C4305:         with
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,74): warning C4305:         [
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,74): warning C4305:             T=float
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,74): warning C4305:         ]
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,69): warning C4305: '인수': 'double'에서 'T'(으)로 잘립니다.
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,69): warning C4305:         with
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,69): warning C4305:         [
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,69): warning C4305:             T=float
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture12.cpp(152,69): warning C4305:         ]
+  lecture2.cpp
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture2.cpp(125,6): warning C4101: 'number_of_people' :참조되지 않은 지역 변수입니다.
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture2.cpp(122,6): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture2.cpp(126,6): warning C4101: 'NumberOfPeople' :참조되지 않은 지역 변수입니다.
+  lecture3.cpp
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture3.cpp(62,12): warning C4244: '인수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  lecture4.cpp
+  lecture5.cpp
+  lecture6.cpp
+  lecture7.cpp
+  lecture8.cpp
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture8.cpp(255,8): warning C4101: 'c1' :참조되지 않은 지역 변수입니다.
+  lecture9.cpp
+  lectures.cpp
+  코드를 생성하고 있습니다...
+C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\CplusplusProject\lecture2.cpp(67,1): warning C4172: 지역 변수 또는 임시: a의 주소를 반환하고 있습니다.
   CplusplusProject.vcxproj -> C:\Users\USER\Desktop\CPlusPlusStudy\CplusplusProject\x64\Debug\CplusplusProject.exe
