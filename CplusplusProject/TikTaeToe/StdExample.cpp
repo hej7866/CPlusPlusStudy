@@ -6,6 +6,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <iomanip>
+#include <cctype>
 
 using namespace std;
 
@@ -36,7 +37,7 @@ public:
 	{
 		// 조건으로 숫자가 아니면 false, true 반환해주는 함수
 
-		if (isdigit(5))
+		if (isdigit('5'))
 		{
 			cout << "참입니다." << endl;
 		}

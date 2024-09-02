@@ -1,7 +1,29 @@
 #include "TikTaeToe.h"
 
-Board::Board()
+
+
+Board::Board() {}
+
+Board::Board(int size)
 {
+	board = new string * [size];
+	for (int i = 0; i < size; i++)
+	{
+		board[i] = new string[size];
+		for (int j = 0; j < size; j++)
+		{
+			board[i][j] = "#";
+		}
+	}
+}
+
+Board::~Board()
+{
+	for (int i = 0; i < size; i++)
+	{
+		delete[] board[i];
+	}
+	delete[] board;
 }
 
 void Board::GamePlay()
@@ -12,12 +34,26 @@ void Board::GamePlay()
 	}
 }
 
-void Board::Insert_x(int posX)
+void Board::PrintBoard()
 {
+	for (int i = 0; i < size; i++)
+	{
+		for (int j = 0; j < size; j++)
+		{
+			cout << board[i][j];
+		}
+		cout << endl;
+	}
 }
 
-void Board::Insert_y(int posY)
+void Board::Insert_x(int pos)
 {
+
+}
+
+void Board::Insert_y(int pos)
+{
+
 }
 
 string Board::GetItem(int pos)

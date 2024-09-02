@@ -24,11 +24,14 @@ private:
 	string** board; // 2차원 배열 [가로][세로]
 public:
 	Board();
+	Board(int size);
+	~Board();
 
 	void GamePlay();
+	void PrintBoard(); // 보드를 보여주는 함수
 	// 2차원 배열에 데이터 넣는 함수
-	void Insert_x(int posX);
-	void Insert_y(int posY);
+	void Insert_x(int pos);
+	void Insert_y(int pos);
 
 	// 2차원 배열 안에 데이터가 있는지 없는지 체크하는 함수
 	string GetItem(int pos);

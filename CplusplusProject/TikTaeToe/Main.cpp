@@ -57,7 +57,7 @@ public:
 		
 		while (true)
 		{
-			system("cls");
+			//system("cls");
 			
 			int userInput = 0;
 			cout << "1. 게임 시작" << endl;
@@ -67,8 +67,9 @@ public:
 			{
 				GameStart();
 
-				Board b;
+				Board b(3);
 				b.GamePlay();
+				b.PrintBoard();
 			}
 			else if(userInput == 2)
 
@@ -93,11 +94,11 @@ public:
 
 int main(void)
 {
-	cout << "Std 함수 예제" << endl;
+	/*cout << "Std 함수 예제" << endl;
 	SampleSTD* sample = new SampleSTD;
 	sample->SetWidthExample();
 	sample->IsDigitExample();
-	delete sample;
+	delete sample;*/
 
 	cout << "메인 화면" << endl;
 	GameManager* gm = GameManager::GetSingleTon();
