@@ -67,9 +67,9 @@ public:
 			{
 				GameStart();
 
-				Board b(3);
+				Board b(5);
 				b.GamePlay();
-				b.PrintBoard();
+				//b.PrintBoard();
 			}
 			else if(userInput == 2)
 

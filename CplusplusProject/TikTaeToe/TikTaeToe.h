@@ -22,6 +22,7 @@ class Board
 private:
 	int size; // 3이면 3x3
 	string** board; // 2차원 배열 [가로][세로]
+	int count;
 public:
 	Board();
 	Board(int size);
@@ -30,19 +31,19 @@ public:
 	void GamePlay();
 	void PrintBoard(); // 보드를 보여주는 함수
 	// 2차원 배열에 데이터 넣는 함수
-	void Insert_x(int pos);
-	void Insert_y(int pos);
+	void Insert_O(int posX, int posY);
+	void Insert_X(int posX, int posY);
 
+	bool Check(int posX, int posY);
 	// 2차원 배열 안에 데이터가 있는지 없는지 체크하는 함수
 	string GetItem(int pos);
-	
+
 	bool X_Win();
 	bool O_Win();
 
 	int GetSize() { return size; }
 
+
+	// cout함수를 이용해서 클래스를 출력하겠다.
+	friend ostream& operator<< (ostream& out, const Board& b);
 };
-
-
-// cout함수를 이용해서 클래스를 출력하겠다.
-ostream& operator<< (ostream& out, const Board& b);

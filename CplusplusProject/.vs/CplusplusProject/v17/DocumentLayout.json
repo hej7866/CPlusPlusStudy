@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{691EADE3-78EE-4543-9522-50A9D2AFE0AE}|TikTaeToe\\TikTaeToe.vcxproj|C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\TikTaeToe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{691EADE3-78EE-4543-9522-50A9D2AFE0AE}|TikTaeToe\\TikTaeToe.vcxproj|solutionrelative:TikTaeToe\\TikTaeToe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{691EADE3-78EE-4543-9522-50A9D2AFE0AE}|TikTaeToe\\TikTaeToe.vcxproj|C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{691EADE3-78EE-4543-9522-50A9D2AFE0AE}|TikTaeToe\\TikTaeToe.vcxproj|solutionrelative:TikTaeToe\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{691EADE3-78EE-4543-9522-50A9D2AFE0AE}|TikTaeToe\\TikTaeToe.vcxproj|C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\TikTaeToe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{691EADE3-78EE-4543-9522-50A9D2AFE0AE}|TikTaeToe\\TikTaeToe.vcxproj|solutionrelative:TikTaeToe\\TikTaeToe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{691EADE3-78EE-4543-9522-50A9D2AFE0AE}|TikTaeToe\\TikTaeToe.vcxproj|C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\TikTaeToe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{691EADE3-78EE-4543-9522-50A9D2AFE0AE}|TikTaeToe\\TikTaeToe.vcxproj|solutionrelative:TikTaeToe\\TikTaeToe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{691EADE3-78EE-4543-9522-50A9D2AFE0AE}|TikTaeToe\\TikTaeToe.vcxproj|C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\StdExample.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TikTaeToe.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\TikTaeToe.cpp",
               "RelativeDocumentMoniker": "TikTaeToe\\TikTaeToe.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\TikTaeToe.cpp",
               "RelativeToolTip": "TikTaeToe\\TikTaeToe.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAUAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-02T08:28:49.162Z",
               "EditorCaption": ""
@@ -53,33 +53,33 @@
               "RelativeDocumentMoniker": "TikTaeToe\\StdExample.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\StdExample.cpp",
               "RelativeToolTip": "TikTaeToe\\StdExample.cpp",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAAAAgAAAARAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-02T07:51:50.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TikTaeToe.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\TikTaeToe.h",
               "RelativeDocumentMoniker": "TikTaeToe\\TikTaeToe.h",
               "ToolTip": "C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\TikTaeToe.h",
               "RelativeToolTip": "TikTaeToe\\TikTaeToe.h",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAAMAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-02T07:38:21.424Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\Main.cpp",
               "RelativeDocumentMoniker": "TikTaeToe\\Main.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\CPlusPlusStudy\\CplusplusProject\\TikTaeToe\\Main.cpp",
               "RelativeToolTip": "TikTaeToe\\Main.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEYAAAAOAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-02T07:08:15.003Z",
               "EditorCaption": ""
