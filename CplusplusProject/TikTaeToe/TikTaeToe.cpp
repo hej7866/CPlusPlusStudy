@@ -119,7 +119,12 @@ bool Board::Check(int posX, int posY)
 	return true;
 }
 
-string Board::GetItem(int pos)
+string Board::GetItem(int pos) const
+{
+	return string();
+}
+
+string Board::GetItem(int col, int row) const
 {
 	return string();
 }
@@ -242,55 +247,3 @@ bool Board::O_Win()
 //	}
 //	return out;
 //}
-
-
-//////////////////////////////////////아래는 내일 수업용//////////////////////////////////////
-/*
-Board::Board() {}
-
-
-Board::~Board()
-{
-
-}
-
-void Board::GamePlay()
-{
-	while (true)
-	{
-
-	}
-}
-
-
-void Board::Insert_X(int posX, int posY)
-{
-	
-}
-
-void Board::Insert_O(int posX, int posY)
-{
-	
-}
-
-
-string Board::GetItem(int pos)
-{
-	return string();
-}
-
-bool Board::X_Win()
-{
-	return false;
-}
-
-bool Board::O_Win()
-{
-	return false;
-}
-
-ostream& operator<<(ostream& out, const Board& b)
-{
-
-}
-*/

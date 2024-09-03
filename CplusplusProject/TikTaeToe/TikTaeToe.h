@@ -36,7 +36,8 @@ public:
 
 	bool Check(int posX, int posY);
 	// 2차원 배열 안에 데이터가 있는지 없는지 체크하는 함수
-	string GetItem(int pos);
+	string GetItem(int pos) const;
+	string GetItem(int col, int row) const;
 
 	bool X_Win();
 	bool O_Win();
