@@ -37,13 +37,13 @@ board::board() // 생성자. size 3.
 
 bool board::insert_x(int pos)
 {
-	int col = pos / size;
-	int row = pos % size;
+	int row = pos / size;
+	int col = pos % size;
 
 	// 숫자를 X로 바꾸겠다. 조건 : O, X 없을 때만
-	if (isNum(bMap[col][row]))
+	if (isNum(bMap[row][col]))
 	{
-		bMap[col][row] = "X";
+		bMap[row][col] = "X";
 		return true;
 	}
 	else
@@ -55,12 +55,12 @@ bool board::insert_x(int pos)
 
 bool board::insert_o(int pos)
 {
-	int col = pos / size;
-	int row = pos % size;
+	int row = pos / size;
+	int col = pos % size;
 
-	if (isNum(bMap[col][row]))
+	if (isNum(bMap[row][col]))
 	{
-		bMap[col][row] = "O";
+		bMap[row][col] = "O";
 		return true;
 	}
 	else
@@ -73,15 +73,15 @@ std::string board::get_item(int pos) const
 {
 	// 7   ->  bMap[세로(0~)x Size + 가로(0~)] col = 2, row = 2
 
-	int col = pos / size;
-	int row = pos % size;
+	int row = pos / size;
+	int col = pos % size;
 
-	return bMap[col][row];
+	return bMap[row][col];
 }
 
-std::string board::get_item(int col, int row) const
+std::string board::get_item(int row, int col) const
 {
-	return bMap[col][row];
+	return bMap[row][col];
 }
 
 void board::Print()
@@ -113,11 +113,11 @@ bool board::x_win()
 
 	for (int i = 0; i < size; i++)
 	{
-		for (int j = 0; i < size; j++)
+		for (int j = 0; j < size; j++)
 		{
-			if (bMap[i][j] != "X")
+			if (bMap[j][i] != "X")
 				break;
-			if (i == (size - 1))
+			if (j == (size - 1))
 				return true;
 		}
 	}
@@ -161,11 +161,11 @@ bool board::o_win()
 
 	for (int i = 0; i < size; i++)
 	{
-		for (int j = 0; i < size; j++)
+		for (int j = 0; j < size; j++)
 		{
-			if (bMap[i][j] != "O")
+			if (bMap[j][i] != "O")
 				break;
-			if (i == (size - 1))
+			if (j == (size - 1))
 				return true;
 		}
 	}
@@ -202,7 +202,7 @@ std::ostream& operator<<(std::ostream& out, const board& b)
 		{
 			out << "----";
 		}
-		out << "-" << std::endl << "│";
+		out << std::endl << "│";
 
 		for (int j = 0; j < b.GetSize(); ++j)
 		{
@@ -222,7 +222,6 @@ std::ostream& operator<<(std::ostream& out, const board& b)
 	{
 		out << "----";
 	}
-	out << "-";
 	out << std::endl;
 	return out;
 }
